@@ -1,0 +1,437 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+body {
+    background-color: #f8e7fb;
+    font-family: baskervville;
+    overflow-wrap: break-word;
+}
+
+@font-face {
+    src: url(baskervville/Baskervville-Regular.ttf);
+    font-family: baskervville;
+}
+
+#header {
+    background-color: #f8e7fb;
+    position: absolute;
+    height: 80px;
+    width: 100%;
+    visibility: visible;
+    top: 25px;
+    display: inline;
+    padding: 0 30px;
+    z-index: 1;
+}
+
+#navbar {
+    transition: 1s;
+}
+
+#deb {
+    float: left;
+    padding-top: 30px;
+    padding-left: 30px;
+    color: #d783e6;
+    font-size: 30px;  
+}
+
+#deb:hover {
+    opacity: 62%;
+}
+
+.navbar-collapse {
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.navbar-nav {
+    text-align: center;
+}
+
+#header ul li {
+    list-style-type: none;
+    padding: 0px 10px;
+    font-size: 20px;
+}
+
+#contact-btn-container {
+    float: right;
+    margin: 30px;
+}
+
+.button {
+    background-color: #d783e6;
+    color: white;  
+    border: none;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+    letter-spacing: .7px;
+    cursor: pointer;
+}
+
+.button:hover {
+    opacity: 0.7;
+    text-decoration: none;
+    color: white;
+}
+
+.button:focus {
+    outline: none;
+}
+
+#first-section {
+    background-color: #f8e7fb;
+    position: relative;
+    height: 580px;  
+}
+
+.first-content {
+    position: relative;
+    text-align: center;
+    color: #d783e6;
+}
+
+#consult {
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.first-content h1 {
+    font-size: 50px;    
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.first-content a {
+    color:#d783e6;
+    font-weight: 100;
+    border-bottom: 1px solid#d783e6;
+    font-style: oblique;
+    font-size: 20px;
+}
+
+.first-content a:hover {
+    opacity: .7;
+    text-decoration: none;
+}
+
+#section-2 {
+    position: relative;
+    text-align: center;
+}
+
+#cupcake {
+    background-image: url("cupcake.jpg");
+    background-size: cover;
+    height: 480px;
+}
+
+.my-row-280 {
+    height: 280px;
+    background-color: white;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+#take-control {
+    font-size: 20px;
+}
+
+#mid-image {
+    height: 400px;
+}
+
+#services {
+    font-size: 35px;
+    margin-top: 80px;
+    margin-bottom: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #d783e6;
+}
+
+
+.grid-cols {
+    font-size: 19px;
+    margin: 20px 0;
+    text-align: center;
+    line-height: 1.8;
+    position: relative;
+    overflow: visible;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.grid-subtitle {
+    font-size: 18px;
+    color: #d783e6;
+    font-style: italic;
+}
+
+#contact-btn {
+    margin-top: 40px;
+}
+
+#btn-two{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 20px 40px;
+    font-size: 16px;
+}
+
+#quote-picture-section {
+    position: relative;
+    height: 800px;
+    background-color: white;
+}
+
+.double-div-wrapper {
+    position: relative;
+    width: 1000px;
+    height: 600px;
+    /* border: 1px solid black; */
+}
+
+#claire {
+    position: absolute;
+    max-height: 100%;
+    max-width: 90%;
+    height: auto;
+    width: auto; 
+}
+
+
+.quote-box { 
+    position: absolute;
+    height: 350px;
+    width: 550px;
+    background-color: #f8e7fb;
+    /* border: 1px solid black; */
+    right: 3%;
+    z-index: 1;
+    text-align: center;
+}
+
+#picture-quote {
+    font-size: 28px;
+    margin: 0;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#claireS {
+    padding-top: 40px;
+    font-size: 23px;
+    font-weight: lighter;
+    float:left;
+    padding-left: 20px;
+}
+
+#lets-talk-section {
+    position: relative;
+    height: 370px;
+}
+
+#lets-talk-section h4 {
+    font-style: italic;
+}
+
+.footer-content {
+   margin-top: 1.6%;
+   margin-bottom: 1.6%;
+}
+
+/* #footer-btn {
+    padding: 20px 35px;
+    font-size: 16px;
+} */
+
+#bottom-contact {
+    position: relative;
+    min-height: 560px;
+    background: white;
+    text-align: center;
+}
+
+#bottom-contact p {
+    font-size: 18px;
+}
+
+.footer-grid-subtitle {
+    font-size: 30px;
+}
+
+
+
+.grid-cols-2{
+    font-size: 22px;
+    margin: auto;
+    text-align: center;
+    line-height: 1.8;
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#footer-title {
+    font-size: 30px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+#footer-container {
+    padding-bottom: 120px;
+}
+
+#insta {
+    color: #d783e6;
+    border-bottom: 1px solid #d783e6;
+    text-decoration: none;
+}
+
+#facebook {
+    color: #d783e6;
+    border-bottom: 1px solid #d783e6;
+    text-decoration: none;
+}
+
+#insta:hover {
+    opacity: .8;
+}
+
+#facebook:hover {
+    opacity: .8;
+}
+
+    /* MEDIA QUERIES  */
+
+@media screen and (max-width: 660px) {
+    #picture-quote {
+        font-size: 20px;
+    }
+    #claireS {
+        padding-top: 20px;
+        font-size: 18px;
+    }
+    .quote-box {
+
+    }
+}
+
+@media screen and (max-width: 430px) {
+    #first-section {
+        height: 500px;
+    }
+    #deb {
+        padding-left: 20px;
+        padding-top: 20px;
+        font-size: 25px;
+    }
+    #burgerBtn {
+        font-size: 16px;
+    }
+    .first-content {
+        margin-bottom: 50px;
+    }
+    .first-content h1 {
+        font-size: 36px;
+    }
+    #consult {
+        font-size: 18px;
+    }
+    #services {
+        font-size: 30px;
+        padding-left: 26px;
+        padding-right: 26px;
+    }
+    .grid-cols {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    #picture-quote {
+        font-size: 15px;
+    }
+    #claireS {
+        padding-top: 20px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .quote-box {
+        height: 300px;
+    }
+    #picture-quote {
+        font-size: 18px;
+    }
+    #claireS {
+        padding-top: 20px;
+        font-size: 16px;
+    }
+
+} 
+
+
+    /* ABOUT PAGE  */
+
+.about-page-main {
+    max-height: 1400px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.about-blurb {
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    font-size: 20px;
+}
+
+#about-page-portrait {
+    padding: 3%;
+    width: 70%;
+    height: 70%;
+}
+
+    /* SERVICES */
+
+
+.services-main {
+    width: 100%;
+    background-color: white;
+    max-height: 4000px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.services-header {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+}
+
+.services-body{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 10%;
+    font-size: 20px;
+}
+
+    /* CONTACT PAGE */ 
+
+.contact-main {
+    max-height: 1000px;
+    background-color: white;
+    padding: 10%;
+}
+
+
+
+
