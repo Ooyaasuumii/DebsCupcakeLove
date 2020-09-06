@@ -72,6 +72,9 @@ body {
     font-size: 13px;
     letter-spacing: .7px;
     cursor: pointer;
+    appearance: none !important;
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
 }
 
 .button:hover {
